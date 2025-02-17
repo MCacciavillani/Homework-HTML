@@ -1,0 +1,74 @@
+.titulos{
+         font-family: 'Arial', sans-serif;
+         font-size: 3em;
+         color: indigo;
+
+}
+#texto-1{
+         font-size: 2em;
+         color: red;
+
+}
+#titulo-descripcion{
+                    display: flex;
+                    flex-direction: column;
+                    padding: 3em;
+                    width: 50vw;
+                    background-color: aquamarine;
+                    margin: auto;
+                    border-radius: 100%;
+                    align-items: center;
+}
+#box-recuadro{
+              margin: 3em;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+}
+#recuadro{
+          margin: 1em;
+          width: max-content;
+          background-color: rgb(253, 184, 99);
+          border: 5px solid blue;
+          font-size: 4em;
+          display: flex;
+          justify-content: center;
+          padding: 0.5em;
+          color: green;
+}
+#texto-footer{
+              font-size: 2em;
+              color: rgb(62, 222, 250);
+              display: flex;
+              justify-content: center;
+}
+.imagenes{
+          width: 250px;
+          height: 225px;
+}
+.botones{
+         border: 2px solid red;
+         border-radius: 5%;
+         width: fit-content;
+         height: fit-content;
+         display: flex;
+         flex-direction: column;
+         gap: 1em;
+         font-size: 2em;
+         align-items: center;
+         padding-bottom:1em ;
+}
+.botones:hover{
+               color: red;
+               .imagenes{
+                width: 300px;
+                height: 300px;
+      }
+}
+#contenedor-botones{
+                    margin: 2em;
+                    display: flex;
+                    width: 85vw;
+                    justify-content: space-between;
+
+}
